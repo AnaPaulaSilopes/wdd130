@@ -1,5 +1,5 @@
 /* Variáveis de cores e fontes */
-    {
+:root {
     --cor-primaria: #055a05;
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
@@ -9,8 +9,7 @@
 }
 
 /* Reset */
-
-    {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,8 +24,7 @@ body {
 
 /* Largura principal */
 header,
-main,
-footer {
+main {
     width: 840px;
     margin: 0 auto;
 }
@@ -56,7 +54,7 @@ nav a {
     font-weight: bold;
 }
 
-nav a {
+nav a:hover {
     color: var(--cor-secundaria);
 }
 
@@ -69,7 +67,7 @@ h2 {
 }
 
 h1 {
-    margin-bottom: 16px;
+    margin: 24px 0 16px;
 }
 
 h2 {
@@ -144,9 +142,130 @@ figcaption {
     font-weight: bold;
 }
 
+/* Página Fale Conosco */
+.contact-intro {
+    text-align: center;
+}
+
+.company-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+.contact-info,
+.map {
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid var(--cor-destaque1);
+    border-radius: 8px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+/* Funcionários */
+.employees {
+    text-align: center;
+}
+
+.employees figure {
+    width: 200px;
+}
+
+.employees img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Formulário */
+.contact-form-section {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+fieldset {
+    border: 1px solid var(--cor-destaque1);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--cor-destaque1);
+    border-radius: 4px;
+    font-family: var(--fonte-body);
+}
+
+textarea {
+    resize: vertical;
+}
+
+fieldset label input[type="radio"] {
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-label input {
+    width: auto;
+}
+
+button[type="submit"] {
+    align-self: center;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--cor-primaria);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--cor-destaque1);
+}
+
 /* Rodapé */
 footer {
-    margin-top: 30px;
+    width: 840px;
+    margin: 30px auto 0;
     padding: 20px;
     border-top: 1px solid var(--cor-destaque1);
     text-align: center;
@@ -156,17 +275,17 @@ footer p {
     margin: 8px;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 40px;
     height: 40px;
     object-fit: cover;
