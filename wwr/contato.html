@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a Raft Adventures para tirar dúvidas, fazer reservas e enviar sugestões sobre nossas aventuras de rafting.">
+    <meta name="author" content="Ana Paula da Silva Lopes">
+    <title>Fale Conosco | Raft Adventures</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logo.jpg" alt="Logo da Raft Adventures">
+
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Fale Conosco</h1>
+
+        <section class="contact-intro">
+            <h2>Entre em contato</h2>
+            <p>
+                Nossa equipe está pronta para ajudar você a planejar sua próxima aventura.
+                Entre em contato para tirar dúvidas, consultar reservas ou enviar sugestões.
+            </p>
+        </section>
+
+        <section class="company-contact">
+            <div class="contact-info">
+                <h2>Informações da empresa</h2>
+                <p><strong>Endereço:</strong> Avenida das Águas, 100, Foz do Iguaçu - PR</p>
+                <p><strong>Telefone:</strong> (45) 99999-0000</p>
+                <p><strong>E-mail:</strong> contato@raftadventures.com</p>
+            </div>
+
+            <div class="map">
+                <h2>Onde estamos</h2>
+                <iframe
+                    src="https://www.google.com/maps?q=Foz%20do%20Igua%C3%A7u%2C%20PR&output=embed"
+                    title="Mapa mostrando Foz do Iguaçu, Paraná"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Nossa equipe</h2>
+
+            <figure>
+                <img src="imagens/clientefeliz.jpg" alt="Instrutor de rafting da Raft Adventures">
+                <figcaption>Lucas Mendes — Instrutor de Rafting</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/aventura1.jpg" alt="Guia de aventura da Raft Adventures">
+                <figcaption>Marina Costa — Guia de Aventura</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/aventura2.jpg" alt="Coordenador de segurança da Raft Adventures">
+                <figcaption>Rafael Silva — Coordenador de Segurança</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações de contato</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Endereço de e-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Finalidade da mensagem</legend>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="consulta-geral" required>
+                        Consulta Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="pergunta-reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="sugestao-site">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem</legend>
+
+                    <label for="mensagem">Escreva sua mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="7" required></textarea>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Quero receber a newsletter mensal
+                    </label>
+                </fieldset>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 Raft Adventures | Ana Paula da Silva Lopes</p>
+
+        <nav class="socialmedia">
+            <a href="#">
+                <img src="imagens/facebook.jpg" alt="Facebook">
+            </a>
+
+            <a href="#">
+                <img src="imagens/instagram.jpg" alt="Instagram">
+            </a>
+
+            <a href="#">
+                <img src="imagens/linkedin.jpg" alt="LinkedIn">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
