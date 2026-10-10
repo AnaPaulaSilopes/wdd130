@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Conheça a Raft Adventures, seus passeios de rafting e experiências de aventura na natureza.">
+    <meta name="description" content="Descubra aventuras de rafting com a Raft Adventures. Conheça nossos passeios, explore as águas e planeje sua próxima experiência.">
     <meta name="author" content="Ana Paula da Silva Lopes">
-    <title>Raft Adventures | Sobre Nós</title>
+    <title>Página Inicial | Raft Adventures</title>
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
@@ -24,84 +23,89 @@
         </nav>
     </header>
 
-    <main>
+    <main class="home-main">
 
-        <div class="hero">
-            <img src="imagens/hero.jpg" alt="Pessoas praticando rafting">
+        <section class="home-hero">
+            <img src="imagens/aventura1.jpg"
+                alt="Aventura ao ar livre durante uma experiência de rafting">
 
-            <h1>Raft Adventures</h1>
-
-            <article>
-                <img src="imagens/clientefeliz.jpg" alt="Cliente feliz após uma aventura">
-                <p>
-                    Viva experiências emocionantes de rafting com segurança,
-                    aventura e contato com a natureza.
-                </p>
-            </article>
-        </div>
-
-        <section>
-            <h2>Uma aventura para todos</h2>
-            <p>
-                A Raft Adventures oferece experiências de rafting para quem deseja
-                conhecer a natureza, superar desafios e criar momentos inesquecíveis.
-                Nossa equipe trabalha para proporcionar aventura e diversão com
-                segurança e responsabilidade.
-            </p>
+            <h1>Raft Adventures: viva a aventura!</h1>
         </section>
 
-        <section>
-            <h2>Nossas aventuras</h2>
+        <section class="home-intro">
+            <h2>Descubra a emoção das águas</h2>
+            <p>
+                Prepare-se para explorar rios, contemplar paisagens incríveis
+                e viver momentos inesquecíveis. Na Raft Adventures, cada
+                passeio é uma oportunidade de superar desafios, fortalecer
+                amizades e se conectar com a natureza.
+            </p>
+            <a class="cta-button" href="passeios.html">
+                Conheça nossos passeios
+            </a>
+        </section>
 
-            <figure>
-                <img src="imagens/aventura1.jpg" alt="Aventura de rafting 1">
-                <figcaption>Aventura nas corredeiras</figcaption>
-            </figure>
+        <section class="home-grid">
+            <article class="home-card">
+                <img src="imagens/aventura2.jpg"
+                    alt="Paisagem de aventura em meio à natureza">
+                <h2>Aventura para todos</h2>
+                <p>
+                    Conheça experiências para quem está começando e para
+                    quem procura novos desafios. Nossa proposta é aproveitar
+                    a natureza com aventura, planejamento e atenção à segurança.
+                </p>
+            </article>
 
-            <figure>
-                <img src="imagens/aventura2.jpg" alt="Aventura de rafting 2">
-                <figcaption>Rafting em grupo</figcaption>
-            </figure>
+            <article class="home-card">
+                <img src="imagens/clientefeliz.jpg"
+                    alt="Participante aproveitando uma experiência de aventura">
+                <h2>Momentos inesquecíveis</h2>
+                <p>
+                    Compartilhe momentos especiais com amigos e familiares.
+                    Descubra novas paisagens, trabalhe em equipe e leve
+                    boas lembranças de cada experiência.
+                </p>
+            </article>
+        </section>
 
-            <figure>
-                <img src="imagens/aventura3.jpg" alt="Aventura de rafting 3">
-                <figcaption>Desafios na natureza</figcaption>
-            </figure>
+        <section class="newsletter">
+            <h2>Receba novidades e aventuras</h2>
+            <p>
+                Inscreva-se em nossa newsletter para receber novidades,
+                informações sobre passeios e dicas para sua próxima aventura.
+            </p>
 
-            <figure>
-                <img src="imagens/aventura4.jpg" alt="Aventura de rafting 4">
-                <figcaption>Experiência emocionante</figcaption>
-            </figure>
+            <form action="#" method="get">
+                <label for="newsletter-nome">Seu nome:</label>
+                <input type="text" id="newsletter-nome" name="nome" required>
 
-            <figure>
-                <img src="imagens/aventura5.jpg" alt="Aventura de rafting 5">
-                <figcaption>Momentos inesquecíveis</figcaption>
-            </figure>
+                <label for="newsletter-email">Seu e-mail:</label>
+                <input type="email" id="newsletter-email" name="email" required>
 
+                <button type="submit">Quero receber novidades</button>
+            </form>
         </section>
 
     </main>
 
     <footer>
-
         <p>©2026 Raft Adventures | Ana Paula da Silva Lopes</p>
 
-        <nav class="socialmedia">
-            <a href="#">
-                <img src="imagens/facebook.jpg" alt="Facebook">
+        <nav class="redes-sociais">
+            <a href="#" aria-label="Facebook da Raft Adventures">
+                <img src="imagens/facebook.jpg" alt="Facebook da Raft Adventures">
             </a>
 
-            <a href="#">
-                <img src="imagens/instagram.jpg" alt="Instagram">
+            <a href="#" aria-label="Instagram da Raft Adventures">
+                <img src="imagens/instagram.jpg" alt="Instagram da Raft Adventures">
             </a>
 
-            <a href="#">
-                <img src="imagens/linkedin.jpg" alt="LinkedIn">
+            <a href="#" aria-label="LinkedIn da Raft Adventures">
+                <img src="imagens/linkedin.jpg" alt="LinkedIn da Raft Adventures">
             </a>
         </nav>
-
     </footer>
 
 </body>
-
 </html>

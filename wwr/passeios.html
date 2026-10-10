@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Entre em contato com a Raft Adventures e planeje sua próxima aventura de rafting.">
+    <meta name="description" content="Explore os passeios de rafting da Raft Adventures, compare experiências e escolha sua próxima aventura na natureza.">
     <meta name="author" content="Ana Paula da Silva Lopes">
-    <title>Fale Conosco | Raft Adventures</title>
+    <title>Passeios de Rafting | Raft Adventures</title>
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
@@ -24,49 +23,140 @@
         </nav>
     </header>
 
-    <main>
+    <main class="trips-main">
 
-        <h1>Fale Conosco</h1>
-
-        <section>
-            <h2>Entre em contato</h2>
-
+        <section class="trips-intro">
+            <h1>Nossos passeios de rafting</h1>
             <p>
-                Quer saber mais sobre nossos passeios? Entre em contato com a
-                Raft Adventures e prepare-se para sua próxima aventura.
+                Escolha sua próxima aventura! Conheça nossas opções de
+                passeios, descubra novas paisagens e prepare-se para
+                compartilhar momentos especiais em contato com a natureza.
+            </p>
+            <a class="cta-button" href="contato.html">
+                Entre em contato para planejar sua aventura
+            </a>
+        </section>
+
+        <section class="trip-grid">
+
+            <article class="trip-card">
+                <img src="imagens/aventura1.jpg"
+                    alt="Aventura de rafting em um ambiente natural">
+                <h2>Rafting de Introdução</h2>
+                <p>
+                    Uma experiência para quem deseja conhecer o rafting
+                    e experimentar a emoção das águas pela primeira vez.
+                    Antes de começar, os participantes recebem orientações
+                    sobre os equipamentos, os comandos e os cuidados de
+                    segurança. É uma oportunidade de aproveitar a natureza,
+                    aprender em equipe e descobrir uma nova atividade.
+                </p>
+                <p><strong>Ideal para:</strong> iniciantes e grupos de amigos.</p>
+            </article>
+
+            <article class="trip-card">
+                <img src="imagens/aventura2.jpg"
+                    alt="Paisagem natural para uma aventura ao ar livre">
+                <h2>Rafting e Natureza</h2>
+                <p>
+                    Combine aventura e contemplação em um passeio que valoriza
+                    as paisagens naturais. Além da experiência no rio, aproveite
+                    para observar o ambiente ao redor e compartilhar momentos
+                    com seu grupo. A atividade depende das condições do rio
+                    e das orientações da equipe responsável.
+                </p>
+                <p><strong>Ideal para:</strong> amantes da natureza e famílias.</p>
+            </article>
+
+            <article class="trip-card">
+                <img src="imagens/clientefeliz.jpg"
+                    alt="Participante desfrutando de uma experiência de aventura">
+                <h2>Desafio em Equipe</h2>
+                <p>
+                    Reúna seu grupo para uma experiência que valoriza a
+                    comunicação, a cooperação e a superação de desafios.
+                    Durante o passeio, os participantes aprendem a seguir
+                    instruções e a trabalhar juntos. O percurso deve ser
+                    escolhido de acordo com as condições do rio e a avaliação
+                    dos responsáveis pela atividade.
+                </p>
+                <p><strong>Ideal para:</strong> grupos e equipes de amigos.</p>
+            </article>
+
+        </section>
+
+        <section class="trip-table-section">
+            <h2>Compare nossos passeios</h2>
+            <p>
+                Consulte as características gerais das experiências e entre
+                em contato para confirmar disponibilidade, duração, valores
+                e requisitos de participação.
             </p>
 
-            <p>
-                E-mail: contato@raftadventures.com
-            </p>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Passeio</th>
+                            <th scope="col">Experiência</th>
+                            <th scope="col">Ideal para</th>
+                            <th scope="col">Destaque</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rafting de Introdução</td>
+                            <td>Inicial</td>
+                            <td>Iniciantes e amigos</td>
+                            <td>Primeiro contato com o rafting</td>
+                        </tr>
+                        <tr>
+                            <td>Rafting e Natureza</td>
+                            <td>Contemplativa</td>
+                            <td>Amantes da natureza e famílias</td>
+                            <td>Paisagens e contato com o ambiente</td>
+                        </tr>
+                        <tr>
+                            <td>Desafio em Equipe</td>
+                            <td>Cooperação em grupo</td>
+                            <td>Grupos e amigos</td>
+                            <td>Comunicação e trabalho em equipe</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
+        <section class="trips-contact">
+            <h2>Vamos planejar sua próxima aventura?</h2>
             <p>
-                Telefone: (00) 00000-0000
+                Quer saber mais sobre os passeios, as condições de participação
+                ou a disponibilidade? Nossa equipe está pronta para ajudar.
             </p>
+            <a class="cta-button" href="contato.html">
+                Fale com nossa equipe
+            </a>
         </section>
 
     </main>
 
     <footer>
-
         <p>©2026 Raft Adventures | Ana Paula da Silva Lopes</p>
 
-        <nav class="socialmedia">
-            <a href="#">
-                <img src="imagens/facebook.jpg" alt="Facebook">
+        <nav class="redes-sociais">
+            <a href="#" aria-label="Facebook da Raft Adventures">
+                <img src="imagens/facebook.jpg" alt="Facebook da Raft Adventures">
             </a>
 
-            <a href="#">
-                <img src="imagens/instagram.jpg" alt="Instagram">
+            <a href="#" aria-label="Instagram da Raft Adventures">
+                <img src="imagens/instagram.jpg" alt="Instagram da Raft Adventures">
             </a>
 
-            <a href="#">
-                <img src="imagens/linkedin.jpg" alt="LinkedIn">
+            <a href="#" aria-label="LinkedIn da Raft Adventures">
+                <img src="imagens/linkedin.jpg" alt="LinkedIn da Raft Adventures">
             </a>
         </nav>
-
     </footer>
 
 </body>
-
 </html>
